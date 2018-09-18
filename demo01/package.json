@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "entry": {
+    "index": "./src/index.js"
+  },
+  "scripts": {
+    "dev": "dora --plugins webpack",
+    "build": "atool-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "atool-build": "^1.0.2",
+    "dora": "^0.5.0",
+    "dora-plugin-webpack": "^1.0.0",
+    "dva": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
